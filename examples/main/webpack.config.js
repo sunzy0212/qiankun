@@ -18,7 +18,7 @@ module.exports = {
     overlay: { warnings: false, errors: true },
     proxy: {
       '/pandora': {
-        target: 'http://100.100.68.201:8089',
+        target: 'http://100.100.68.201:8080',
         pathRewrite: {
           '^/pandora': ''
         }

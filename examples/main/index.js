@@ -71,7 +71,7 @@ registerMicroApps(
       loader,
       activeRule: '/container/pandora',
       props: {
-        token: 'eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eJwNyk0KxCAMQOG7ZF2L0WhNV72KsRYcGPsPhWHuXrfvez_4XAVGyHkIibwoJ8YoYpqVOBsUczTCydm8IHRw3tLmLdZ5PeK0l1ruPq3fJlUWGNEFHTR6wg7ys7XgybLXmvD_Aj9lHVI.lIb2KcBwz0LbZTT-e67jMdqpGomBchp6-Fh369AWgrfZq4fhRFuvm8TTzHuLujt8GHcVvX2bCgogyMf0NCLXZg',
+        token: 'eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eJwVyk0OhCAMQOG7dA0mrVCoq7kKVEgwGXR-TEwmc3d1-773g-XbYAIJleqYxEZWtk6iWsFCVr3SHEU45QIGPnu-5i31eX2nx6v1tg-6Pi_pucKEjDSSY48GyrHdwTEFiR7_Jz-QHXE.ObPBIg8YmpLmCTAHEjBAXBSKgDGJ3wOYR0pxqum6-QP-hpIdyTyvqmJC8iFLGqLVWOdaFuXqNlDW_aVICHd9NA',
         isFullScreen: true,
         hideFeedback: true,
         basePath: '/container/pandora'
