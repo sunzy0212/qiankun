@@ -7,6 +7,7 @@ module.exports = {
   devServer: {
     open: true,
     port: '7099',
+    host: '0.0.0.0',
     clientLogLevel: 'warning',
     disableHostCheck: true,
     compress: true,
@@ -15,6 +16,14 @@ module.exports = {
     },
     historyApiFallback: true,
     overlay: { warnings: false, errors: true },
+    proxy: {
+      '/pandora': {
+        target: 'http://100.100.68.201:8089',
+        pathRewrite: {
+          '^/pandora': ''
+        }
+      }
+    }
   },
   output: {
     publicPath: '/',

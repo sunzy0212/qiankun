@@ -64,6 +64,19 @@ registerMicroApps(
       loader,
       activeRule: '/vue3',
     },
+    {
+      name: 'pandora',
+      entry: 'http://100.100.68.201:7099/pandora',
+      container: '#subapp-viewport',
+      loader,
+      activeRule: '/container/pandora',
+      props: {
+        token: 'eyJhbGciOiJIUzUxMiIsInppcCI6IkRFRiJ9.eJwNyk0KxCAMQOG7ZF2L0WhNV72KsRYcGPsPhWHuXrfvez_4XAVGyHkIibwoJ8YoYpqVOBsUczTCydm8IHRw3tLmLdZ5PeK0l1ruPq3fJlUWGNEFHTR6wg7ys7XgybLXmvD_Aj9lHVI.lIb2KcBwz0LbZTT-e67jMdqpGomBchp6-Fh369AWgrfZq4fhRFuvm8TTzHuLujt8GHcVvX2bCgogyMf0NCLXZg',
+        isFullScreen: true,
+        hideFeedback: true,
+        basePath: '/container/pandora'
+      }
+    }
   ],
   {
     beforeLoad: [
